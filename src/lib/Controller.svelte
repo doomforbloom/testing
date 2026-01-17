@@ -5,7 +5,7 @@
   const { setViewport, getViewport } = useSvelteFlow();
 
   let keysDown = { w: false, a: false, s: false, d: false };
-  const MOVE_SPEED = 10; 
+  const MOVE_SPEED = 40; 
   let frameId;
 
   function updateMovement() {

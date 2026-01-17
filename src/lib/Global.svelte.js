@@ -1,3 +1,3 @@
-export let global = $state({
+export const global = $state({
     typingMode: false
 });
