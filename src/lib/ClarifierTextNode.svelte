@@ -1,9 +1,10 @@
 <script>
     import { useSvelteFlow } from "@xyflow/svelte";
     import { global } from "./Global.svelte";
-    let { id, data } = $props();
 
+    let { id, data } = $props();
     let { updateNodeData } = useSvelteFlow();
+
 </script>
 
 <!-- title -->
